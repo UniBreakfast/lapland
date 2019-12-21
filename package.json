@@ -13,7 +13,8 @@
     "summon-apielf": "git clone https://github.com/UniBreakfast/apielf",
     "summon-seself": "git clone https://github.com/UniBreakfast/seself",
     "summon-pasself": "git clone https://github.com/UniBreakfast/pasself",
-    "summon-dataelf": "git clone https://github.com/UniBreakfast/dataelf"
+    "summon-dataelf": "git clone https://github.com/UniBreakfast/dataelf",
+    "unsummon": "rd home /s /q && rd santa /s /q && rd api /s /q && rd apielf /s /q && rd seself /s /q && rd pasself /s /q && rd dataelf /s /q"
   },
   "repository": {
     "type": "git",
