@@ -1,2 +1,4 @@
 # lapland
 Lapland is my YAFJSF
+
+The [specification is here](https://github.com/UniBreakfast/lapland-js-spec/blob/master/README.md).
