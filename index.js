@@ -3,7 +3,7 @@ const lapland = require('./lapland.js')
 
 const PORT = process.env.PORT || 3000
 
-const options = {PORT}
+const details = {PORT}
 
 
-lapland.wish(options)
+lapland.wish(details)
