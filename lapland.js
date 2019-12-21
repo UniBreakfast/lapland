@@ -3,7 +3,7 @@ const
 c = console.log,
 
 
-wish = options => {
+wish = async options => {
   const { PORT } = options
 
   c("Lapland is going to be created at port "+PORT)
