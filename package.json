@@ -4,8 +4,9 @@
   "description": "Lapland is my YAFJSF",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node lapland.test.js",
     "start": "node index",
+    "test-summon": "node summon.test.js",
     "summon": "npm run summon-home && npm run summon-santa && npm run summon-apibox && npm run summon-apielf && npm run summon-seself && npm run summon-pasself && npm run summon-dataelf",
     "summon-home": "git clone https://github.com/UniBreakfast/home",
     "summon-santa": "git clone https://github.com/UniBreakfast/santa",
