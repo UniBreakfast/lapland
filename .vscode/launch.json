@@ -7,6 +7,15 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "test",
+      "program": "${workspaceFolder}/lapland.test.js",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "index",
       "skipFiles": [
         "<node_internals>/**"
