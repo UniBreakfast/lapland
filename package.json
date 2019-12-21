@@ -5,7 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node index",
+    "summon": "npm run summon-home && npm run summon-santa && npm run summon-apibox && npm run summon-apielf && npm run summon-seself && npm run summon-pasself && npm run summon-dataelf",
+    "summon-home": "git clone https://github.com/UniBreakfast/home",
+    "summon-santa": "git clone https://github.com/UniBreakfast/santa",
+    "summon-apibox": "git clone https://github.com/UniBreakfast/apibox api",
+    "summon-apielf": "git clone https://github.com/UniBreakfast/apielf",
+    "summon-seself": "git clone https://github.com/UniBreakfast/seself",
+    "summon-pasself": "git clone https://github.com/UniBreakfast/pasself",
+    "summon-dataelf": "git clone https://github.com/UniBreakfast/dataelf"
   },
   "repository": {
     "type": "git",
